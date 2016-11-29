@@ -1,0 +1,17 @@
+
+
+var blue = [64,25, 12, 22, 11];
+
+function blueSort(blue) {
+  for (var i= i-1; ++i < blue.lenght;) {
+     for (var m = j = i; ++i < blue.length;){
+    if (blue[m]> blue[j]) m =j;
+  }
+  
+  var z = blue[m];
+  blue[m] = blue[i];
+  blue[i] = z;
+
+  }
+  return blue;
+}
